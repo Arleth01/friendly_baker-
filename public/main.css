@@ -1,0 +1,37 @@
+.flour {
+    height: 470px;
+    width: 75%;
+    background-color: #C5C3C3;
+}
+.row {
+    display: flex;
+  }
+.column {
+    /* flex: 33.33%; */
+    padding: 5px;
+  
+  }
+  img{
+      height: 350px;
+      width: 350px;
+  }
+  .colums{ 
+    margin-left: 10%;
+    height: 25%;
+    width: 25%;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
