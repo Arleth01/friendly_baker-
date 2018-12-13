@@ -3,8 +3,28 @@
     width: 75%;
     background-color: #C5C3C3;
 }
+.topnav a{
+  color: #666363;
+  overflow: hidden;
+  text-decoration: none;
+}
+.topnav a:hover {
+padding: 14px 16px;
+background-color: #FFFFFF;
+text-align: left;
+font-size: 20px;
+}
 .row {
     display: flex;
+  }
+  #display{
+    display: none;
+  }
+  #appear{
+    display: none;
+  }
+  #show{
+    display: none;
   }
 .column {
     /* flex: 33.33%; */
@@ -27,11 +47,10 @@
   }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: #666363;
     text-align: center;
  }
